@@ -23,6 +23,18 @@
   /* Adjust the width value as needed */
 }
 
+.tab {
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 2px;
+  /* Added padding to accommodate the underline */
+}
+
+.tab.active {
+  border-bottom: 2px solid #1F6B1D;
+  /* Green underline for the active tab */
+}
+
 .App-header {
   background-color: #342828;
   min-height: 100vh;
@@ -32,6 +44,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.bg-green-shade {
+  background-color: #1F6B1D;
 }
 
 .App-link {
