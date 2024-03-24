@@ -3,6 +3,9 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import AboutUs from './pages/AboutUs';
 import Onboard from './pages/Onboard';
 import SignIn from './pages/SignIn';
+import SignInCont from './pages/SignInCont';
+import Load from './pages/Load';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
           <Route path="/" element={<AboutUs />} />
           <Route path="/onboard" element={<Onboard />} />
           <Route path="/signin" element={<SignIn />} />
+          <Route path="/signincont" element={<SignInCont />} />
+          <Route path="/load" element={<Load />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
       <link

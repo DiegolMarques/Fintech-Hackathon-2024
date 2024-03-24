@@ -9,15 +9,15 @@ const SignIn = () => {
 
     // Add your sign-in logic here
     // For simplicity, let's just redirect to onboard route
-    window.location.href = '/onboard';
+    window.location.href = '/signincont';
   };
 
   return (
     <div className="flex items-center justify-center h-screen">
       <div className="max-w-md w-full">
         <div className="flex flex-col items-center justify-center space-y-8">
-          <h2 className="mt-8 pb-6 text-center text-3xl font-extrabold text-gray-900">
-            Sign in to your account
+          <h2 className="mt-8 pb-6 text-center text-3xl text-gray-900">
+            Sign up for Rapidax
           </h2>
           <form className="space-y-4" onSubmit={handleSignIn}>
             <div>
@@ -61,9 +61,10 @@ const SignIn = () => {
             <div className='pt-8'>
               <button
                 type="submit"
-                className="group custom-input relative w-full flex justify-center py-3 px-6 border border-transparent text-sm font-medium rounded-lg text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+                className="group custom-input relative w-full flex justify-center py-3 px-6 border border-transparent text-sm font-medium rounded-lg text-white bg-green-400 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+                style={{ backgroundColor: '#1F6B1D' }} // Set background color to #F4FBF4
               >
-                Sign In
+                Sign Up
               </button>
             </div>
           </form>
