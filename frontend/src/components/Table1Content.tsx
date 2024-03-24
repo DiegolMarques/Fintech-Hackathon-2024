@@ -41,13 +41,13 @@ const Tab1Content = () => {
         <div className="flex gap-4">
           <Card
             title="Checking Account"
-            amount="2,000.15"
+            amount="3,212.00"
             daysAgo={3}
             transactionsToReview={5}
           />
           <Card
             title="Savings Account"
-            amount="5,000.56"
+            amount="12,000.00"
             daysAgo={1}
             transactionsToReview={2}
           />
