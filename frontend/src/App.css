@@ -30,6 +30,25 @@
   /* Added padding to accommodate the underline */
 }
 
+.fade-container {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.logo {
+  width: 200px;
+  /* Adjust the size of the logo as needed */
+}
+
+.info {
+  margin-top: 20px;
+  /* Adjust the spacing between the logo and main content */
+}
+
 .tab.active {
   border-bottom: 2px solid #1F6B1D;
   /* Green underline for the active tab */
